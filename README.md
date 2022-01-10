@@ -4,7 +4,7 @@ MT model trained using the friendly_JA Corpus attempting to make Japanese easier
 We used sonoisa t5-base-japanese (https://huggingface.co/sonoisa/t5-base-japanese) as pretrained model and the friendly_JA corpus to fine-tune the friendly_JA model.
 We provide the pytorch model as well as the onnx quantized model.
 
-We registered a 66.80 Bleu Score performed on the pytorch model.
+We achieved a 66.80 Bleu Score performed on the pytorch model.
 
 
 # Examples
