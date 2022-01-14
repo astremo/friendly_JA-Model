@@ -5,7 +5,7 @@
 プリトレインドモデルとしてsonoisa t5-base-japanese (https://huggingface.co/sonoisa/t5-base-japanese)を使用し、ファインチューニングとしてfriendly_JAコーパスを使用しました。
 pytorchモデルとonnx量子化モデルを提供しています。
 
-pytorchモデルでは、66.80のBleuスコアを獲得しました。
+pytorchモデルでは、66.94のBleuスコアを獲得しました。
 
 
 # 実例
