@@ -2,9 +2,6 @@
 MT model trained using the friendly_JA Corpus attempting to make Japanese easier/more accessible to occidental people by using the Latin/English derived katakana lexicon instead of the standard Sino-Japanese lexicon
 
 We used sonoisa t5-base-japanese (https://huggingface.co/sonoisa/t5-base-japanese) as pretrained model and the friendly_JA corpus to fine-tune the friendly_JA model.
-We provide the pytorch model as well as the onnx quantized model.
-
-We achieved a 66.94 Bleu Score performed on the pytorch model.
 
 
 # Examples
@@ -29,6 +26,9 @@ We achieved a 66.94 Bleu Score performed on the pytorch model.
 |新型コロナウイルス　オミクロン株 1人死亡 8249人感染|コロナウイルス オミクロンバリアント 1人死んだ 8249人インフェクション|
 |2021年10月4日から岸田文雄は日本の総理大臣として勤めている|2021年10月4日から岸田文雄は日本のプライムミニスターとして働いている|
 
+
+# Download
+https://huggingface.co/astremo/friendly_JA
 
 # License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
