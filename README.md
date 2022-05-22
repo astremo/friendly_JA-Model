@@ -1,9 +1,6 @@
 # friendly_JA-Model
 MT model trained using the friendly_JA Corpus attempting to make Japanese easier/more accessible to occidental people by using the Latin/English derived katakana lexicon instead of the standard Sino-Japanese lexicon
 
-We used sonoisa t5-base-japanese (https://huggingface.co/sonoisa/t5-base-japanese) as pretrained model and the friendly_JA corpus to fine-tune the friendly_JA model.
-
-
 # Examples
 
 | input | output|
@@ -29,6 +26,9 @@ We used sonoisa t5-base-japanese (https://huggingface.co/sonoisa/t5-base-japanes
 
 # Download
 https://huggingface.co/astremo/friendly_JA
+
+# References
+t5 japanese pre-trained model: sonoisa t5-base-japanese (https://huggingface.co/sonoisa/t5-base-japanese)
 
 # License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
